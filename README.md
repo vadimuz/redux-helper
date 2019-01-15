@@ -59,7 +59,7 @@ And many other short operations of CRUD. More examples below.
 
 ### Installation
 
-Copy ReduxHelper.js to your project. For example to src/utils/ folder.
+Copy ReduxHelper.js to your project. For example to the folder: 'src/utils/'
 
 ### Importing
 
