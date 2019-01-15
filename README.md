@@ -71,15 +71,15 @@ import { ReduxArrayHelper } from '../utils/ReduxHelper'
 
 | Method | First Arguments | Second Arguments | Third Arguments | Description |
 | ------ | ------ | ------ | ------ | ------ |
-| append | list | payload | - | Insert to the end of the list |
-| prepend | list | payload | - | Insert to the end of the list |
-| insert | list | payload | index | Insert to position of the list |
-| update | list | payload | (optional) comparator | Update item of list by id in the payload |
-| updateByIndex | list | payload | index (int) | Update item of list by payload |
-| delete | list | payload | (optional) comparator | Delete item from the list by id in the payload |
+| append | list | payload (obj) | - | Insert to the end of the list |
+| prepend | list | payload (obj) | - | Insert to the end of the list |
+| insert | list | payload (obj) | index | Insert to position of the list |
+| update | list | payload (obj) | (optional) comparator | Update item of list by id in the payload |
+| updateByIndex | list | payload (obj) | index (int) | Update item of list by payload |
+| delete | list | payload (obj) | (optional) comparator | Delete item from the list by id in the payload |
 | deleteById | list | payload (id) | (optional) comparator | Delete item from the list using payload |
 | deleteByIndex | list | index (int) | - | Delete item from the list using payload |
-| find | list | payload | (optional) comparator | Return the item from the list by id in the payload |
+| find | list | payload (obj) | (optional) comparator | Return the item from the list by id in the payload |
 | findById | list | payload (id) | (optional) comparator | Return the item from the list by payload|
 | findIndexById | list | payload (id) | (optional) comparator | Return index of item by payload |
 
