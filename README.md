@@ -1,4 +1,4 @@
-# Redux Array Helper
+<img src='https://github.com/vadimuz/redux-helper/blob/master/logo.png?raw=true' height='140' alt='Redux Helper Logo' />
 
 Effortless operations with Reducers.
 
@@ -56,6 +56,8 @@ export default function example(state = initialState, action) {
 ```
 
 And many other short operations of CRUD. More examples below.
+
+# Redux Array Helper
 
 ### Installation
 
